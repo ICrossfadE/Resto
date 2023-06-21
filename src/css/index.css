@@ -1,3 +1,37 @@
-h1 {
-  color: cornflowerblue;
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  position: relative;
+  background-color: cadetblue;
+  height: 984px;
+  width: 1440px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px 120px 0 120px;
+  background-color: darkcyan;
+}
+
+.header {
+  position: absolute;
+  height: 150px;
+  width: 100%;
+  background-color: crimson;
+}
+
+.info {
+  height: 837px;
+  width: 488px;
+  background-color: blue;
+}
+
+.img {
+  height: 837px;
+  width: 600px;
+  background-color: green;
 }
