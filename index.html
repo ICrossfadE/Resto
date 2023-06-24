@@ -3,17 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="slick/slick-stule.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Libre+Franklin:wght@200;300;500&family=NTR&family=Rancho&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./src/css/normalize.css" />
     <link rel="stylesheet" href="./src/css/index.css" />
     <title>Resto</title>
   </head>
   <body>
     <div class="main-container">
-      <header class="header"></header>
+      <header class="header">
+        <a href="">Contacto</a>
+        <a href="">Nosotros</a>
+        <div class="header__logo">Resto</div>
+        <a href="">Menu</a>
+        <a href="">Reservacion</a>
+      </header>
+
       <div class="container">
-        <div class="info"></div>
-        <div class="img"></div>
+        <div class="present">
+          <div class="present__title">
+            Comida casera, saludable y <span>vegana</span>.
+          </div>
+          <div class="present__button">
+            <button>Ver Menu</button>
+            <span>Local Cerca</span>
+          </div>
+          <div class="present__options">
+            <div class="option">
+              <img src="./assets/bx_leaf.svg" alt="leaf" />
+              <div>Fresco</div>
+            </div>
+            <div class="option">
+              <img src="./assets/bx_rocket.svg" alt="rocket" />
+              <div>Rapido</div>
+            </div>
+            <div class="option">
+              <img src="./assets/bx_support.svg" alt="support" />
+              <div>Soporte</div>
+            </div>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="slider__item">
+            <img
+              src="./assets/present-image/korean-dish-gc0e898cb5_1280 1.jpg"
+              alt="1"
+            />
+          </div>
+          <div class="slider__item">
+            <img
+              src="./assets/present-image/korean-dish-gc0e898cb5_1280 1.jpg"
+              alt="1"
+            />
+          </div>
+          <div class="slider__item">
+            <img
+              src="./assets/present-image/korean-dish-gc0e898cb5_1280 1.jpg"
+              alt="1"
+            />
+          </div>
+          <div class="slider__item">
+            <img
+              src="./assets/present-image/korean-dish-gc0e898cb5_1280 1.jpg"
+              alt="1"
+            />
+          </div>
+          <div class="slider__item">
+            <img
+              src="./assets/present-image/korean-dish-gc0e898cb5_1280 1.jpg"
+              alt="1"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </body>
+  <script src=" https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="./slick/slick.min.js"></script>
+  <script src="./slick/script-slick.js"></script>
 </html>

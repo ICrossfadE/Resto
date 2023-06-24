@@ -1,0 +1,21 @@
+.slick-track {
+  display: flex;
+}
+.slick-list {
+  overflow: hidden;
+}
+
+.slider .slick-arrow {
+  font-size: 0;
+}
+
+.slider .slick-arrow.slick-next {
+  background: url(../assets/Arrow1.svg) 0 0 no-repeat;
+  width: 145px;
+  height: 110px;
+}
+.slider .slick-arrow.slick-prev {
+  background: url(../assets/Arrow2.svg) 0 0 no-repeat;
+  width: 145px;
+  height: 110px;
+}

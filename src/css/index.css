@@ -1,37 +1,115 @@
+/* * {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Rancho", cursive;
+} */
+
 body {
   display: flex;
   justify-content: center;
 }
 
 .main-container {
-  position: relative;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   height: 984px;
-  width: 1440px;
+  padding: 0 120px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+
+.header a {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+.header__logo {
+  font-family: "Rancho", cursive;
+  font-size: 96px;
 }
 
 .container {
   display: flex;
-  justify-content: space-between;
-  padding: 150px 120px 0 120px;
-  background-color: darkcyan;
+  justify-content: center;
 }
 
-.header {
-  position: absolute;
-  height: 150px;
-  width: 100%;
-  background-color: crimson;
+.present {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 834px;
+  width: 600px;
 }
 
-.info {
-  height: 837px;
-  width: 488px;
-  background-color: blue;
+.present__title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+  font-weight: 300px;
+  width: 444px;
+  color: #000;
 }
 
-.img {
-  height: 837px;
+.present__title span {
+  color: #2a9d8f;
+}
+
+.present__button button {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  width: 165px;
+  height: 50px;
+  margin-right: 96px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #e76f51;
+  box-shadow: 5px 5px 15px 0px #f4a261;
+}
+
+.present__button span {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+}
+
+.present__options {
+  font-family: "Libre Franklin", sans-serif;
+  display: flex;
+  font-size: 20px;
+}
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option img {
+  width: 50px;
+  margin-bottom: 14px;
+}
+
+.present__options .option:nth-child(1) {
+  padding: 0 54px 8px 24px;
+}
+.present__options .option:nth-child(2) {
+  padding: 0 64px 8px 64px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.present__options .option:nth-child(3) {
+  padding: 0 24px 8px 54px;
+}
+
+.slider {
+  height: 834px;
   width: 600px;
   background-color: green;
 }
