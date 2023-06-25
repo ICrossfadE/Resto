@@ -1,0 +1,30 @@
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .present {
+    align-items: center;
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-container {
+    width: 100vw;
+  }
+  .header__menu {
+    display: block;
+  }
+
+  .header > a {
+    display: none;
+  }
+
+  .present {
+    width: 600px;
+  }
+
+  .present__title {
+    width: 100%;
+  }
+}

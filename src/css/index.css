@@ -10,15 +10,20 @@ body {
   justify-content: center;
 }
 
-.main-container {
-  padding: 0 120px;
+.header__menu {
+  display: none;
+}
+
+.header__menu::after {
+  content: url(../../assets/eva_bar-chart-fill.svg);
+  width: 44px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 150px;
+  margin-bottom: 40px;
 }
 
 .header a {
@@ -36,7 +41,6 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
 }
 
 .present {
@@ -44,13 +48,12 @@ body {
   flex-direction: column;
   justify-content: space-around;
   height: 837px;
-  width: 600px;
+  /* padding: 0 110px 0 0; */
 }
 
 .present__title {
   font-family: "Josefin Sans", sans-serif;
   font-size: 48px;
-  font-weight: 300px;
   width: 444px;
   color: #000;
 }
