@@ -11,8 +11,6 @@ body {
 }
 
 .main-container {
-  /* background-color: cadetblue; */
-  height: 984px;
   padding: 0 120px;
 }
 
@@ -45,7 +43,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 834px;
+  height: 837px;
   width: 600px;
 }
 
@@ -109,7 +107,7 @@ body {
 }
 
 .slider {
-  height: 834px;
+  position: relative;
   width: 600px;
-  background-color: green;
+  height: 837px;
 }

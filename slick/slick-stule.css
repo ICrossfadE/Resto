@@ -6,16 +6,29 @@
 }
 
 .slider .slick-arrow {
+  position: absolute;
+  padding: 0px;
   font-size: 0;
+  width: 145px;
+  height: 110px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
 }
 
+.slider .slick-arrow.slick-next::after {
+  content: url(../assets/Arrow1.svg);
+}
+.slider .slick-arrow.slick-prev::after {
+  content: url(../assets/Arrow2.svg);
+}
 .slider .slick-arrow.slick-next {
-  background: url(../assets/Arrow1.svg) 0 0 no-repeat;
-  width: 145px;
-  height: 110px;
+  right: 0px;
+  bottom: 0px;
 }
 .slider .slick-arrow.slick-prev {
-  background: url(../assets/Arrow2.svg) 0 0 no-repeat;
-  width: 145px;
-  height: 110px;
+  z-index: 1;
+  right: 145px;
+  bottom: 0px;
 }
