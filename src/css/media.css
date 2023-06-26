@@ -12,12 +12,36 @@
   .main-container {
     width: 100vw;
   }
+
+  .header {
+    width: 100vw;
+  }
+
   .header__menu {
-    display: block;
+    margin-left: 400px;
   }
 
   .header > a {
     display: none;
+  }
+
+  .dropdown-child {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 148px;
+    width: 600px;
+    z-index: 10;
+    background-color: #fff;
+  }
+
+  .dropdown-child a {
+    font-family: "Libre Franklin", sans-serif;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin: 17.5px 0;
   }
 
   .present {
@@ -26,5 +50,13 @@
 
   .present__title {
     width: 100%;
+    /* font-size: 64px; */
+  }
+
+  .present__button span::before {
+    content: url(../../assets/bx_map.svg);
+    position: absolute;
+    left: -36px;
+    top: -3px;
   }
 }

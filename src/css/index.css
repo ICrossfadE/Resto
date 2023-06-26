@@ -10,7 +10,11 @@ body {
   justify-content: center;
 }
 
-.header__menu {
+.active {
+  display: block;
+}
+
+.hidden {
   display: none;
 }
 
@@ -37,6 +41,10 @@ body {
 .header__logo {
   font-family: "Rancho", cursive;
   font-size: 96px;
+}
+
+.header__menu {
+  cursor: pointer;
 }
 
 .container {
@@ -76,6 +84,7 @@ body {
 }
 
 .present__button span {
+  position: relative;
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
 }
