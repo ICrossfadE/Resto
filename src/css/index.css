@@ -5,10 +5,7 @@
   font-family: "Rancho", cursive;
 } */
 
-body {
-  display: flex;
-  justify-content: center;
-}
+/* =============================================== */
 
 .active {
   display: block;
@@ -18,63 +15,125 @@ body {
   display: none;
 }
 
-.header__menu::after {
-  content: url(../../assets/eva_bar-chart-fill.svg);
-  width: 44px;
+/* =============================================== */
+
+[class*="__container"] {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-.header {
+[class*="__list"] {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+/* =============================================== */
+
+.header__menu {
+  color: #000;
+}
+
+ul.menu__list {
+  padding: 0;
+  margin: 16px 0 0 0;
+}
+
+.menu__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+  list-style: none;
+  gap: 0 10px;
 }
 
-.header a {
+.menu__link {
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
-  color: #000;
+  color: inherit;
 }
-
-.header__logo {
+.menu__item--header-logo {
   font-family: "Rancho", cursive;
   font-size: 96px;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
 }
 
-.header__menu {
-  cursor: pointer;
+/* =============================================== */
+
+.menu__item--header-button-open::after {
+  content: url(../../assets/header-button/eva_bar-chart-fill.svg);
+  width: 44px;
 }
 
-.container {
+.menu__item--header-button-close::after {
+  content: url(../../assets//header-button/clarity_times-line.svg);
+  width: 44px;
+}
+
+.menu__item--header-button-open {
+  background-color: transparent;
+  border: none;
+}
+
+.menu__item--header-button-close {
+  background-color: transparent;
+  border: none;
+}
+
+/* =============================================== */
+
+.dropdown__list {
+  margin: 40px 0;
+}
+
+.dropdown-social__link {
+  margin-bottom: 60px;
+}
+
+/* =============================================== */
+
+.main-block__container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
 }
 
-.present {
+.main-block__decription {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 837px;
-  /* padding: 0 110px 0 0; */
+  width: 490px;
 }
 
-.present__title {
-  font-family: "Josefin Sans", sans-serif;
+.decription-main-block__title {
+  font-family: Josefin Sans;
   font-size: 48px;
-  width: 444px;
-  color: #000;
+  font-weight: 300;
 }
 
-.present__title span {
+.decription-main-block__info {
+  margin: 126px 0 98px 0;
+}
+
+.decription-main-block__title span {
   color: #2a9d8f;
 }
 
-.present__button button {
+.decription-main-block__info mark {
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
-  width: 165px;
-  height: 50px;
+  padding: 13px 38px;
   margin-right: 96px;
   border-radius: 10px;
   border: none;
@@ -83,43 +142,41 @@ body {
   box-shadow: 5px 5px 15px 0px #f4a261;
 }
 
-.present__button span {
-  position: relative;
+.decription-main-block__info span {
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
 }
 
-.present__options {
-  font-family: "Libre Franklin", sans-serif;
+.decription-main-block__options {
   display: flex;
+  font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
 }
-.option {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.option img {
-  width: 50px;
-  margin-bottom: 14px;
-}
-
-.present__options .option:nth-child(1) {
+.decription-main-block__options .option-content:nth-child(1) {
   padding: 0 54px 8px 24px;
 }
-.present__options .option:nth-child(2) {
+
+.decription-main-block__options .option-content:nth-child(2) {
   padding: 0 64px 8px 64px;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
 }
 
-.present__options .option:nth-child(3) {
+.decription-main-block__options .option-content:nth-child(3) {
   padding: 0 24px 8px 54px;
 }
 
-.slider {
-  position: relative;
-  width: 600px;
-  height: 837px;
+.option-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option-content img {
+  margin-bottom: 14px;
+}
+
+.main-block__slider {
+  max-width: 100%;
 }

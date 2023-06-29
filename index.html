@@ -16,84 +16,140 @@
     <title>Resto</title>
   </head>
   <body>
-    <div class="main-container">
+    <div class="wrapper">
       <header class="header">
-        <a href="">Contacto</a>
-        <a href="">Nosotros</a>
-        <div class="header__logo">Resto</div>
-        <div id="button-menu" class="header__menu hidden"></div>
-        <a href="">Menu</a>
-        <a href="">Reservacion</a>
+        <div class="header__container">
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="">Contacto</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Nosotros</a>
+              </li>
+              <a class="menu__item--header-logo" href="">Resto</a>
+
+              <div id="header-buttons" class="hidden">
+                <button
+                  id="open-buttom"
+                  class="menu__item--header-button-open hidden"
+                ></button>
+                <button
+                  id="close-buttom"
+                  class="menu__item--header-button-close hidden"
+                ></button>
+              </div>
+
+              <li class="menu__item">
+                <a class="menu__link" href="">Menu</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Reservacion</a>
+              </li>
+            </ul>
+
+            <div id="dropdown-menu" class="dropdown hidden">
+              <ul class="dropdown__list">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="">Reservacion</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="">Nosotros</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="">Menu</a>
+                </li>
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="">Contactos</a>
+                </li>
+              </ul>
+
+              <div class="dropdown-social__link">
+                <img
+                  src="./assets/dropdown-icon/akar-icons_instagram-fill.svg"
+                  alt="inst"
+                />
+                <img
+                  src="./assets/dropdown-icon/akar-icons_whatsapp-fill.svg"
+                  alt="wth"
+                />
+                <img
+                  src="./assets/dropdown-icon/brandico_facebook.svg"
+                  alt="facebook"
+                />
+                <img
+                  src="./assets/dropdown-icon/akar-icons_twitter-fill.svg"
+                  alt="twitter"
+                />
+              </div>
+            </div>
+          </nav>
+        </div>
       </header>
-
-      <div id="menu" class="dropdown-child hidden">
-        <a href="">Contacto</a>
-        <a href="">Nosotros</a>
-        <a href="">Menu</a>
-        <a href="">Reservacion</a>
-
-        <div class="social">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+      <main class="page">
+        <section class="page__main main_block">
+          <div class="main-block__container">
+            <div class="main-block__decription">
+              <div class="decription-main-block__title">
+                <div>Comida casera, saludable y <span>vegana</span>.</div>
+              </div>
+              <div class="decription-main-block__info">
+                <mark>Ver Menu</mark>
+                <span>Local Cerca</span>
+              </div>
+              <div class="decription-main-block__options">
+                <div class="option-content">
+                  <img src="./assets/bx_leaf.svg" alt="leaf" />
+                  <div>Fresco</div>
+                </div>
+                <div class="option-content">
+                  <img src="./assets/bx_rocket.svg" alt="rocket" />
+                  <div>Rapido</div>
+                </div>
+                <div class="option-content">
+                  <img src="./assets/bx_support.svg" alt="support" />
+                  <div>Soporte</div>
+                </div>
+              </div>
+            </div>
+            <div class="main-block__slider">
+              <div class="slider">
+                <div class="slider__item">
+                  <img src="./assets/present-image/img1.jpg" alt="1" />
+                </div>
+                <div class="slider__item">
+                  <img src="./assets/present-image/img2.jpg" alt="2" />
+                </div>
+                <div class="slider__item">
+                  <img src="./assets/present-image/img3.jpg" alt="3" />
+                </div>
+                <div class="slider__item">
+                  <img src="./assets/present-image/img4.jpg" alt="4" />
+                </div>
+                <div class="slider__item">
+                  <img src="./assets/present-image/img5.jpg" alt="5" />
+                </div>
+                <div class="slider__item">
+                  <img src="./assets/present-image/img6.jpg" alt="6" />
+                </div>
+                <div class="slider__item">
+                  <img src="./assets/present-image/img7.jpg" alt="7" />
+                </div>
+                <div class="slider__item">
+                  <img src="./assets/present-image/img8.jpg" alt="8" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         </div>
       </div>
-
-      <div class="container">
-        <div class="present">
-          <div class="present__title">
-            Comida casera, saludable y <span>vegana</span>.
-          </div>
-          <div class="present__button">
-            <button>Ver Menu</button>
-            <span>Local Cerca</span>
-          </div>
-          <div class="present__options">
-            <div class="option">
-              <img src="./assets/bx_leaf.svg" alt="leaf" />
-              <div>Fresco</div>
-            </div>
-            <div class="option">
-              <img src="./assets/bx_rocket.svg" alt="rocket" />
-              <div>Rapido</div>
-            </div>
-            <div class="option">
-              <img src="./assets/bx_support.svg" alt="support" />
-              <div>Soporte</div>
-            </div>
-          </div>
-        </div>
-        <div class="slider">
-          <div class="slider__item">
-            <img src="./assets/present-image/img1.jpg" alt="1" />
-          </div>
-          <div class="slider__item">
-            <img src="./assets/present-image/img2.jpg" alt="2" />
-          </div>
-          <div class="slider__item">
-            <img src="./assets/present-image/img3.jpg" alt="3" />
-          </div>
-          <div class="slider__item">
-            <img src="./assets/present-image/img4.jpg" alt="4" />
-          </div>
-          <div class="slider__item">
-            <img src="./assets/present-image/img5.jpg" alt="5" />
-          </div>
-          <div class="slider__item">
-            <img src="./assets/present-image/img6.jpg" alt="6" />
-          </div>
-          <div class="slider__item">
-            <img src="./assets/present-image/img7.jpg" alt="7" />
-          </div>
-          <div class="slider__item">
-            <img src="./assets/present-image/img8.jpg" alt="8" />
-          </div>
-        </div>
-      </div>
+      </main>
+      <footer class="footer"></footer>
     </div>
   </body>
   <script src=" https://code.jquery.com/jquery-3.7.0.min.js"></script>
   <script src="./slick/slick.min.js"></script>
+  <script src="./script/showDropdownMenu.js"></script>
   <script src="./slick/script-slick.js"></script>
 </html>

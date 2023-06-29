@@ -1,8 +1,17 @@
+.slider {
+  position: relative;
+}
+
 .slick-track {
   display: flex;
 }
 .slick-list {
   overflow: hidden;
+  max-width: 600px;
+}
+
+.slider__item img {
+  max-width: 100%;
 }
 
 .slider .slick-arrow {
@@ -24,6 +33,7 @@
   content: url(../assets/Arrow2.svg);
 }
 .slider .slick-arrow.slick-next {
+  z-index: 1;
   right: 0px;
   bottom: 0px;
 }
