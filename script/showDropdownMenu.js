@@ -1,6 +1,6 @@
 //resize window
 $(window).on("load resize", function () {
-  if ($(window).width() <= "768") {
+  if ($(window).width() <= "758") {
     console.log("Show");
     $("#open-buttom").removeClass("hidden");
     $("#open-buttom").addClass("active");
@@ -17,7 +17,7 @@ $(window).on("load resize", function () {
 
 // hide dropdown menu when resize window
 $(window).resize(function () {
-  if ($(window).width() <= "768") {
+  if ($(window).width() <= "758") {
     console.log("Hide-menu");
     $("#dropdown-menu").addClass("hidden");
     $("#dropdown-menu").removeClass("active");

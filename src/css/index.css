@@ -180,3 +180,90 @@ ul.menu__list {
 .main-block__slider {
   max-width: 100%;
 }
+
+/* =============================================== */
+
+.page__main:nth-child(2) {
+  background: #efefef;
+}
+
+/* =============================================== */
+
+.food-cards__list {
+  margin: 0 102px;
+}
+
+.food-card__item:nth-last-child(1) {
+  padding: 90px 0;
+  flex-direction: row-reverse;
+}
+
+.food-card__header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.food-cards__title {
+  margin-top: 40px;
+  font-family: "Rancho", cursive;
+  font-size: 64px;
+  font-weight: 400px;
+}
+
+.food-cards__subtitle {
+  margin: 7px 0 28px 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  color: #e76f51;
+}
+
+.food-card__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-card__name {
+  margin-bottom: 23px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #e76f51;
+}
+.food-card__title {
+  width: 394px;
+  padding: 25px 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 400px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.food-card__description {
+  width: 372px;
+  margin: 24px 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: #333333;
+}
+.food-card__price {
+  margin-bottom: 25px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+.food-card__buttom {
+  padding: 8px 42px;
+  font-family: "Libre Franklin", sans-serif;
+  border-radius: 15px;
+  background: #2a9d8f;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.food-card__image {
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
