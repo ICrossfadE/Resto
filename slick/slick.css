@@ -1,21 +1,16 @@
 .slider {
   position: relative;
+  max-width: 100%;
 }
 
 .slick-track {
   display: flex;
 }
+
 .slick-list {
   overflow: hidden;
-  max-width: 600px;
-}
-
-.slider__item img {
-  /* max-width: 100%; */
-}
-
-.slick-track {
-  /* max-width: 100%; */
+  width: 600px;
+  /* height: 837px; */
 }
 
 .slider .slick-arrow {
@@ -36,13 +31,14 @@
 .slider .slick-arrow.slick-prev::after {
   content: url(../assets/Arrow2.svg);
 }
+
 .slider .slick-arrow.slick-next {
   z-index: 1;
   right: -1px;
-  bottom: 1px;
+  bottom: 0px;
 }
 .slider .slick-arrow.slick-prev {
   z-index: 1;
   right: 144px;
-  bottom: 1px;
+  bottom: 0px;
 }
