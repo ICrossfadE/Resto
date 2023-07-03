@@ -1,6 +1,6 @@
 .slider {
   position: relative;
-  max-width: 100%;
+  max-width: 600px;
 }
 
 .slick-track {
@@ -9,8 +9,12 @@
 
 .slick-list {
   overflow: hidden;
-  width: 600px;
-  /* height: 837px; */
+}
+
+.slick-track {
+}
+
+.slick-active {
 }
 
 .slider .slick-arrow {

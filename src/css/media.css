@@ -101,6 +101,10 @@
     justify-content: space-between;
     width: 300px;
   }
+
+  div.main-block__slider {
+    width: 400px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -124,5 +128,9 @@
   .slider .slick-arrow.slick-prev {
     border-radius: 7px 0px 0px 0px;
     right: 70px;
+  }
+
+  div.main-block__slider {
+    width: 300px;
   }
 }
