@@ -237,6 +237,7 @@ ul.menu__list {
   font-weight: 400;
   color: #e76f51;
 }
+
 .food-card__title {
   width: 394px;
   padding: 25px 0;
@@ -246,6 +247,7 @@ ul.menu__list {
   border-top: 1px solid;
   border-bottom: 1px solid;
 }
+
 .food-card__description {
   width: 372px;
   margin: 24px 0;
@@ -254,12 +256,14 @@ ul.menu__list {
   font-weight: 100;
   color: #333333;
 }
+
 .food-card__price {
   margin-bottom: 25px;
   font-family: "Libre Franklin", sans-serif;
   font-size: 24px;
   font-weight: 300;
 }
+
 .food-card__buttom {
   padding: 8px 42px;
   font-family: "Libre Franklin", sans-serif;
@@ -269,6 +273,7 @@ ul.menu__list {
   color: #fff;
   cursor: pointer;
 }
+
 .food-card__image {
   box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
 }

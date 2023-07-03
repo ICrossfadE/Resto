@@ -1,6 +1,7 @@
 .slider {
   position: relative;
   max-width: 600px;
+  bottom: -4px;
 }
 
 .slick-track {
@@ -39,10 +40,10 @@
 .slider .slick-arrow.slick-next {
   z-index: 1;
   right: -1px;
-  bottom: 0px;
+  bottom: 4px;
 }
 .slider .slick-arrow.slick-prev {
   z-index: 1;
   right: 144px;
-  bottom: 0px;
+  bottom: 4px;
 }
