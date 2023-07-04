@@ -203,7 +203,7 @@ ul.menu__list {
   flex-direction: row-reverse;
 }
 
-.food-card__header {
+.food-cards__header {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -277,3 +277,50 @@ ul.menu__list {
 .food-card__image {
   box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
 }
+
+/* =============================================== */
+
+.coffee-cards__list {
+}
+
+.coffee-cards__header {
+}
+
+.coffee-cards__title {
+}
+
+.coffee-cards__subtitle {
+}
+
+.coffee-menu__list {
+  display: flex;
+}
+
+.coffee-menu__colum {
+}
+
+.coffee-menu__title {
+}
+
+.coffee-menu__items {
+}
+
+.coffee-menu__item {
+}
+
+.coffe-item__content {
+}
+
+.coffee-item__description {
+}
+
+.coffee-item__name {
+}
+
+.coffee-item__price {
+}
+
+.coffee-item__info {
+}
+
+/* =============================================== */

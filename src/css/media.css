@@ -29,9 +29,6 @@
   }
 }
 
-@media (max-width: 990px) {
-}
-
 /* =============================================== */
 
 @media (max-width: 768px) {
@@ -81,7 +78,9 @@
     margin: 0;
   }
 
-  /* =============================================== */
+  div.main-block__slider {
+    width: 400px;
+  }
 
   .dropdown {
     position: absolute;
@@ -138,11 +137,9 @@
     justify-content: space-between;
     width: 300px;
   }
-
-  div.main-block__slider {
-    width: 400px;
-  }
 }
+
+/* =============================================== */
 
 @media (max-width: 478px) {
   div.main-block__decription {
