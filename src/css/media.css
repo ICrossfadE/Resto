@@ -144,9 +144,9 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 478px) {
   div.main-block__decription {
-    width: 320px;
+    width: 318px;
     text-align: start;
   }
 
@@ -171,7 +171,27 @@
     width: 300px;
   }
 
+  div.food-card__text {
+    width: 300px;
+  }
+
   div.food-cards__title {
     font-size: 48px;
+  }
+
+  div.food-card__title {
+    width: 300px;
+    font-size: 36px;
+  }
+
+  p.food-card__description {
+    width: 300px;
+    font-size: 16px;
+  }
+
+  .food-card__image {
+    width: 300px;
+    height: 336px;
+    object-fit: cover;
   }
 }
