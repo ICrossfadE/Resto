@@ -27,6 +27,10 @@
   div.food-card__price {
     margin-bottom: 0;
   }
+
+  .coffee-menu__list {
+    flex-direction: column;
+  }
 }
 
 /* =============================================== */
@@ -172,7 +176,7 @@
     width: 300px;
   }
 
-  div.food-cards__title {
+  div.page-header__title {
     font-size: 48px;
   }
 
@@ -190,5 +194,30 @@
     width: 300px;
     height: 336px;
     object-fit: cover;
+  }
+
+  .coffee-menu__item img {
+    width: 76px;
+  }
+
+  div.coffee-item__name {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  div.coffee-item__price {
+    font-size: 18px;
+  }
+
+  p.coffee-item__info {
+    font-size: 16px;
+  }
+
+  div.coffee-menu__item:nth-child(2)::after {
+    left: -40px;
+  }
+
+  div.coffee-menu__item:nth-child(2)::before {
+    left: -40px;
   }
 }

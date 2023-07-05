@@ -297,6 +297,7 @@ ul.menu__list {
   display: flex;
   justify-content: space-between;
   margin-bottom: 140px;
+  flex-wrap: wrap;
 }
 
 .coffee-menu__colum {
