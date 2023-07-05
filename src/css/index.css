@@ -203,21 +203,21 @@ ul.menu__list {
   flex-direction: row-reverse;
 }
 
-.food-cards__header {
+.page__header {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.food-cards__title {
+.page-header__title {
   margin-top: 40px;
   font-family: "Rancho", cursive;
   font-size: 64px;
   font-weight: 400;
 }
 
-.food-cards__subtitle {
+.page-header__subtitle {
   margin: 7px 0 28px 0;
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
