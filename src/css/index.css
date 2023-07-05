@@ -281,6 +281,7 @@ ul.menu__list {
 /* =============================================== */
 
 .coffee-cards__list {
+  color: #333;
 }
 
 .coffee-cards__header {
@@ -294,33 +295,70 @@ ul.menu__list {
 
 .coffee-menu__list {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 140px;
 }
 
 .coffee-menu__colum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
 }
 
 .coffee-menu__title {
-}
-
-.coffee-menu__items {
+  font-family: Josefin Sans;
+  font-size: 42px;
+  font-weight: 400;
 }
 
 .coffee-menu__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 65px 0;
+}
+
+.coffee-menu__item:nth-child(2)::after {
+  content: url(../../assets/Line.svg);
+  position: absolute;
+  top: -12px;
+  left: -11.5px;
+}
+
+.coffee-menu__item:nth-child(2)::before {
+  content: url(../../assets/Line.svg);
+  position: absolute;
+  bottom: -6px;
+  left: -11.5px;
 }
 
 .coffe-item__content {
+  margin-left: 10px;
 }
 
 .coffee-item__description {
+  display: flex;
 }
 
 .coffee-item__name {
+  font-family: Libre Franklin;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 .coffee-item__price {
+  margin-left: 18px;
+  font-family: Libre Franklin;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 .coffee-item__info {
+  font-family: Libre Franklin;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 7px 0 0 0;
 }
 
 /* =============================================== */
