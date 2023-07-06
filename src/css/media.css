@@ -214,10 +214,12 @@
   }
 
   div.coffee-menu__item:nth-child(2)::after {
-    left: -40px;
+    left: -22px;
+    width: 320px;
   }
 
   div.coffee-menu__item:nth-child(2)::before {
-    left: -40px;
+    left: -22px;
+    width: 320px;
   }
 }

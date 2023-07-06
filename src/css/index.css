@@ -321,15 +321,23 @@ ul.menu__list {
 }
 
 .coffee-menu__item:nth-child(2)::after {
-  content: url(../../assets/Line.svg);
+  content: " ";
   position: absolute;
+  background-image: url(../../assets/Line.svg);
+  background-size: contain;
+  height: 6px;
+  width: 356px;
   top: -12px;
   left: -11.5px;
 }
 
 .coffee-menu__item:nth-child(2)::before {
-  content: url(../../assets/Line.svg);
+  content: " ";
   position: absolute;
+  background-image: url(../../assets/Line.svg);
+  background-size: contain;
+  height: 6px;
+  width: 356px;
   bottom: -6px;
   left: -11.5px;
 }
