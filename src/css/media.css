@@ -31,6 +31,11 @@
   .coffee-menu__list {
     flex-direction: column;
   }
+
+  div.response-item__text {
+    width: 708px;
+    font-size: 20px;
+  }
 }
 
 /* =============================================== */
@@ -141,6 +146,11 @@
     justify-content: space-between;
     width: 300px;
   }
+
+  div.response-item__text {
+    width: 428px;
+    font-size: 18px;
+  }
 }
 
 /* =============================================== */
@@ -221,5 +231,40 @@
   div.coffee-menu__item:nth-child(2)::before {
     left: -22px;
     width: 320px;
+  }
+
+  div.response-item__text {
+    width: 299px;
+    font-size: 18px;
+  }
+
+  .response-slider .slick-list {
+    height: 427px;
+  }
+
+  .response-slider .slick-dots {
+    width: 90px;
+    top: -48px;
+  }
+
+  .response-slider .slick-dots button {
+    width: 16px;
+    height: 16px;
+  }
+
+  .response-slider .slick-dots li.slick-active button {
+    border: 2px solid #fff;
+  }
+
+  div.response-item__text {
+    margin: 42px 0;
+  }
+
+  div.response-item__description {
+    top: 45px;
+  }
+
+  div.response-item__author {
+    font-size: 20px;
   }
 }

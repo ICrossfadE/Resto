@@ -380,6 +380,12 @@ ul.menu__list {
   position: absolute;
 }
 
+.response-item__background img {
+  /* max-width: 100%;
+  object-fit: contain;
+  text-align: center; */
+}
+
 .response-item__description {
   position: relative;
   display: flex;

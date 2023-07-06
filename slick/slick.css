@@ -12,6 +12,10 @@
   overflow: hidden;
 }
 
+.response-slider .slick-list {
+  /* max-width: 1200px; */
+}
+
 .response-slider .slick-dots {
   position: relative;
   display: flex;
