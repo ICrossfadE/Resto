@@ -189,6 +189,7 @@ ul.menu__list {
 /* =============================================== */
 
 .page__main:nth-child(2) {
+  padding-top: 40px;
   background: #efefef;
 }
 
@@ -211,10 +212,10 @@ ul.menu__list {
 }
 
 .page-header__title {
-  margin-top: 40px;
   font-family: "Rancho", cursive;
   font-size: 64px;
   font-weight: 400;
+  color: #333;
 }
 
 .page-header__subtitle {
@@ -284,15 +285,6 @@ ul.menu__list {
   color: #333;
 }
 
-.coffee-cards__header {
-}
-
-.coffee-cards__title {
-}
-
-.coffee-cards__subtitle {
-}
-
 .coffee-menu__list {
   display: flex;
   justify-content: space-between;
@@ -318,6 +310,10 @@ ul.menu__list {
   display: flex;
   align-items: center;
   padding: 65px 0;
+}
+
+.coffee-menu__item img {
+  border-radius: 50%;
 }
 
 .coffee-menu__item:nth-child(2)::after {
@@ -368,6 +364,50 @@ ul.menu__list {
   font-size: 18px;
   font-weight: 300;
   margin: 7px 0 0 0;
+}
+
+/* =============================================== */
+
+.page__main:nth-child(4) .page__header {
+  flex-direction: column-reverse;
+}
+
+.response-block__slider {
+  margin: 18px 0 150px 0;
+}
+
+.response-item__background {
+  position: absolute;
+}
+
+.response-item__description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 566px;
+  top: 70px;
+  color: #fff;
+}
+
+.response-item__logo {
+  width: 80px;
+  height: 68px;
+  background-image: url(../../assets/fa_quote-left.svg);
+}
+
+.response-item__text {
+  margin: 60px 0;
+  width: 996px;
+  font-family: Libre Franklin;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.response-item__author {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 /* =============================================== */

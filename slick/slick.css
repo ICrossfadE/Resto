@@ -12,10 +12,33 @@
   overflow: hidden;
 }
 
-.slick-track {
+.response-slider .slick-dots {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 auto;
+  width: 144px;
+  top: -95px;
 }
 
-.slick-active {
+.response-slider .slick-dots li {
+  list-style: none;
+  font-size: 0;
+}
+
+.response-slider .slick-dots button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.response-slider .slick-dots li.slick-active button {
+  background-color: transparent;
+  border: 2px solid #fff;
 }
 
 .slider .slick-arrow {
