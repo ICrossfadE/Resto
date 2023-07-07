@@ -300,7 +300,7 @@ ul.menu__list {
 }
 
 .coffee-menu__title {
-  font-family: Josefin Sans;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 42px;
   font-weight: 400;
 }
@@ -347,20 +347,20 @@ ul.menu__list {
 }
 
 .coffee-item__name {
-  font-family: Libre Franklin;
+  font-family: "Libre Franklin", sans-serif;
   font-size: 22px;
   font-weight: 500;
 }
 
 .coffee-item__price {
   margin-left: 18px;
-  font-family: Libre Franklin;
+  font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
   font-weight: 200;
 }
 
 .coffee-item__info {
-  font-family: Libre Franklin;
+  font-family: "Libre Franklin", sans-serif;
   font-size: 18px;
   font-weight: 300;
   margin: 7px 0 0 0;
@@ -405,13 +405,13 @@ ul.menu__list {
 .response-item__text {
   margin: 60px 0;
   width: 996px;
-  font-family: Libre Franklin;
+  font-family: "Libre Franklin", sans-serif;
   font-size: 36px;
   font-weight: 300;
 }
 
 .response-item__author {
-  font-family: Josefin Sans;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   font-weight: 400;
 }
@@ -420,4 +420,56 @@ ul.menu__list {
 
 .page__main:nth-child(5) .page__header {
   flex-direction: column-reverse;
+}
+
+.experts-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 56px 0;
+}
+
+.expert-list__item {
+  position: relative;
+}
+
+.expert-list__info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 0 auto; */
+  width: 270px;
+  height: 130px;
+  bottom: 22px;
+  right: 40px;
+  background-color: #efefef;
+}
+
+.expert-list__info .name {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.expert-list__info .position {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.expert-list__info .social {
+}
+
+.expert-list__info .social a:nth-child(1)::after {
+  content: url(../../assets/akar-icons_instagram-fill.svg);
+}
+
+.expert-list__info .social a:nth-child(2)::after {
+  content: url(../../assets/logos_linkedin-icon.svg);
+  margin: 0 30px;
+}
+
+.expert-list__info .social a:nth-child(3)::after {
+  content: url(../../assets/logos_twitter.svg);
 }
