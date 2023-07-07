@@ -417,3 +417,7 @@ ul.menu__list {
 }
 
 /* =============================================== */
+
+.page__main:nth-child(5) .page__header {
+  flex-direction: column-reverse;
+}
