@@ -458,9 +458,6 @@ ul.menu__list {
   font-weight: 200;
 }
 
-.expert-list__info .social {
-}
-
 .expert-list__info .social a:nth-child(1)::after {
   content: url(../../assets/akar-icons_instagram-fill.svg);
 }
@@ -478,8 +475,104 @@ ul.menu__list {
 
 .page__main:nth-child(6) {
   height: 735px;
+  margin-bottom: 260px;
   background: url(../../assets/images/pexels-ketut-subiyanto.jpg);
-  /* background-position: center; */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.reservation__container {
+  display: flex;
+  justify-content: end;
+}
+
+.reservation-form__block {
+  position: relative;
+  top: 88px;
+  width: 430px;
+  height: 770px;
+  padding: 54px 40px 30px 40px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.reservation-form__header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.form-header__title {
+  font-family: "Rancho", cursive;
+  font-size: 64px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.form-header__subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #e76f51;
+}
+
+.form-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 28px;
+}
+
+.details-data {
+  display: flex;
+  justify-content: space-between;
+}
+.details-data input {
+  width: 176px;
+  height: 27.5px;
+}
+
+.form-details input {
+  padding: 8px 10px 6px 10px;
+  margin-bottom: 34px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  border-radius: 5px;
+  border: 0.3px solid rgba(0, 0, 0, 0.75);
+  color: rgba(0, 0, 0, 0.4);
+  outline: none;
+  background: #fff;
+}
+
+.form-details textarea {
+  padding: 10px;
+  width: 95%;
+  height: 144.578px;
+  margin-bottom: 28px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  border-radius: 5px;
+  border: 0.3px solid rgba(0, 0, 0, 0.75);
+  color: rgba(0, 0, 0, 0.4);
+  background: #fff;
+}
+
+.form-buttom__submit {
+  padding: 8px 42px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 15px;
+  background: #2a9d8f;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-buttom {
+  display: flex;
+  justify-content: end;
 }
