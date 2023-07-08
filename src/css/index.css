@@ -473,3 +473,13 @@ ul.menu__list {
 .expert-list__info .social a:nth-child(3)::after {
   content: url(../../assets/logos_twitter.svg);
 }
+
+/* =============================================== */
+
+.page__main:nth-child(6) {
+  height: 735px;
+  background: url(../../assets/images/pexels-ketut-subiyanto.jpg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
