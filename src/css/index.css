@@ -5,6 +5,12 @@
   font-family: "Rancho", cursive;
 } */
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 /* =============================================== */
 
 .active {
@@ -490,6 +496,7 @@ ul.menu__list {
 .reservation-form__block {
   position: relative;
   top: 88px;
+  right: 36px;
   width: 430px;
   height: 770px;
   padding: 54px 40px 30px 40px;
@@ -558,6 +565,8 @@ ul.menu__list {
   border: 0.3px solid rgba(0, 0, 0, 0.75);
   color: rgba(0, 0, 0, 0.4);
   background: #fff;
+  resize: none;
+  outline: none;
 }
 
 .form-buttom__submit {

@@ -167,6 +167,10 @@
   div.reservation__container {
     justify-content: center;
   }
+
+  div.reservation-form__block {
+    right: 0;
+  }
 }
 
 /* =============================================== */
