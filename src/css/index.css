@@ -386,12 +386,6 @@ ul.menu__list {
   position: absolute;
 }
 
-.response-item__background img {
-  /* max-width: 100%;
-  object-fit: contain;
-  text-align: center; */
-}
-
 .response-item__description {
   position: relative;
   display: flex;
@@ -584,4 +578,56 @@ ul.menu__list {
 .form-buttom {
   display: flex;
   justify-content: end;
+}
+
+.footer {
+  background-color: #333;
+}
+
+/* =============================================== */
+
+.footer__menu {
+  display: flex;
+}
+
+.footer-menu__info {
+}
+
+.info__title {
+}
+
+.info__description {
+}
+
+.info__social {
+}
+
+.footer-menu__work-time {
+}
+
+.work-time__list {
+}
+
+.list__title {
+}
+
+.list__item {
+}
+
+.list__title {
+}
+
+.list__phone {
+}
+
+.footer-menu__location {
+}
+
+.location__title {
+}
+
+.location__info {
+}
+
+.location__map {
 }
