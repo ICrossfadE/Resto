@@ -588,46 +588,96 @@ ul.menu__list {
 
 .footer__menu {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-menu__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .info__title {
+  font-family: "Rancho", cursive;
+  font-size: 96px;
+  font-weight: 400;
+  color: #fefefe;
 }
 
 .info__description {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.info__description p:first-child {
+  width: 384px;
 }
 
 .info__social {
-}
-
-.footer-menu__work-time {
+  display: flex;
+  justify-content: space-between;
 }
 
 .work-time__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
-.list__title {
+.list__subtitle {
+  width: 155px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  border-bottom: 1px solid #fff;
+  color: #e76f51;
 }
 
 .list__item {
+  padding: 0;
+  margin: 0;
 }
 
-.list__title {
+.list__item li {
+  list-style: none;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
 }
 
 .list__phone {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
 }
 
 .footer-menu__location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.location__title {
+.location__subtitle {
+  width: 155px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  border-bottom: 1px solid #fff;
+  color: #e76f51;
 }
 
 .location__info {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
 }
 
 .location__map {
+  border-radius: 7px;
 }
