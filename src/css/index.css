@@ -589,6 +589,7 @@ ul.menu__list {
 .footer__menu {
   display: flex;
   justify-content: space-between;
+  margin: 60px 0 140px 0;
 }
 
 .footer-menu__info {
@@ -611,8 +612,13 @@ ul.menu__list {
   color: #fff;
 }
 
+.info__description p {
+  margin: 0;
+}
+
 .info__description p:first-child {
   width: 384px;
+  margin-bottom: 45px;
 }
 
 .info__social {
@@ -629,6 +635,7 @@ ul.menu__list {
 
 .list__subtitle {
   width: 155px;
+  padding-bottom: 12px;
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -642,6 +649,10 @@ ul.menu__list {
 }
 
 .list__item li {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  width: 210px;
   list-style: none;
   font-family: "Libre Franklin", sans-serif;
   font-size: 18px;
@@ -650,10 +661,20 @@ ul.menu__list {
 }
 
 .list__phone {
+  position: relative;
+  right: -52px;
+  margin-top: 20px;
   font-family: "Libre Franklin", sans-serif;
   font-size: 18px;
   font-weight: 300;
   color: #fff;
+}
+
+.list__phone::before {
+  position: absolute;
+  left: -52px;
+  top: -8px;
+  content: url(../../assets/carbon_phone-voice_footer.svg);
 }
 
 .footer-menu__location {
@@ -664,6 +685,7 @@ ul.menu__list {
 
 .location__subtitle {
   width: 155px;
+  padding-bottom: 12px;
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -671,11 +693,24 @@ ul.menu__list {
   color: #e76f51;
 }
 
+.location__info p {
+  margin: 0;
+}
+
 .location__info {
+  position: relative;
+  right: -56px;
+  margin: 20px 0 18px 0;
   font-family: "Libre Franklin", sans-serif;
   font-size: 18px;
   font-weight: 300;
   color: #fff;
+}
+
+.location__info::before {
+  position: absolute;
+  content: url(../../assets/el_map-marker-footer.svg);
+  left: -56px;
 }
 
 .location__map {
