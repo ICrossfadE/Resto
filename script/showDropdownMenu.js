@@ -1,7 +1,6 @@
 //resize window
 $(window).on("load resize", function () {
   if ($(window).width() <= "758") {
-    console.log("Show");
     $("#open-buttom").removeClass("hidden");
     $("#open-buttom").addClass("active");
     $("#header-buttons").removeClass("hidden");
@@ -11,14 +10,12 @@ $(window).on("load resize", function () {
     $("#open-buttom").removeClass("active");
     $("#header-buttons").addClass("hidden");
     $("#header-buttons").removeClass("active");
-    console.log("Hide");
   }
 });
 
 // hide dropdown menu when resize window
 $(window).resize(function () {
   if ($(window).width() <= "758") {
-    console.log("Hide-menu");
     $("#dropdown-menu").addClass("hidden");
     $("#dropdown-menu").removeClass("active");
 
