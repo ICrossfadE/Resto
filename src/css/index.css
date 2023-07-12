@@ -287,6 +287,10 @@ ul.menu__list {
 
 /* =============================================== */
 
+.coffee-list__container .page__header {
+  margin-top: 30px;
+}
+
 .coffee-cards__list {
   color: #333;
 }
@@ -580,11 +584,11 @@ ul.menu__list {
   justify-content: end;
 }
 
+/* =============================================== */
+
 .footer {
   background-color: #333;
 }
-
-/* =============================================== */
 
 .footer__menu {
   display: flex;
@@ -673,7 +677,7 @@ ul.menu__list {
 .list__phone::before {
   position: absolute;
   left: -52px;
-  top: -8px;
+  top: -4px;
   content: url(../../assets/carbon_phone-voice_footer.svg);
 }
 
