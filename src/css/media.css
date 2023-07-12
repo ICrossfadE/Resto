@@ -93,6 +93,7 @@
     position: relative;
     top: 4px;
     right: 4px;
+    z-index: -1;
   }
 
   div.decription-main-block__info {
