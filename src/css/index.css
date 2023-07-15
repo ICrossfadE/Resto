@@ -726,3 +726,9 @@ ul.menu__list {
 .location__map {
   border-radius: 7px;
 }
+
+/* =============================================== */
+
+.info__social a {
+  cursor: pointer;
+}
