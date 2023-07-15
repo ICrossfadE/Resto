@@ -100,6 +100,10 @@ ul.menu__list {
   margin-bottom: 60px;
 }
 
+.dropdown-social__link a {
+  cursor: pointer;
+}
+
 /* =============================================== */
 
 .main-block__container {
@@ -123,28 +127,36 @@ ul.menu__list {
 }
 
 .decription-main-block__info {
+  display: flex;
   margin: 126px 0 98px 0;
+  gap: 96px;
 }
 
 .decription-main-block__title span {
   color: #2a9d8f;
+  font-weight: 400;
 }
 
-.decription-main-block__info mark {
+.decription-main-block__info button:nth-child(1) {
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
+  font-weight: 300;
   padding: 13px 38px;
-  margin-right: 96px;
   border-radius: 10px;
   border: none;
   color: #fff;
   background-color: #e76f51;
   box-shadow: 5px 5px 15px 0px #f4a261;
+  cursor: pointer;
 }
 
-.decription-main-block__info span {
+.decription-main-block__info button:nth-child(2) {
   font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
+  font-weight: 300;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .decription-main-block__options {

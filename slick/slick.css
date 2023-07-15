@@ -12,10 +12,6 @@
   overflow: hidden;
 }
 
-.response-slider .slick-list {
-  /* max-width: 1200px; */
-}
-
 .response-slider .slick-dots {
   position: relative;
   display: flex;
@@ -35,14 +31,15 @@
   width: 25px;
   height: 25px;
   border: none;
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 50%;
+  border: 2px solid #fff;
   cursor: pointer;
 }
 
 .response-slider .slick-dots li.slick-active button {
-  background-color: transparent;
-  border: 3px solid #fff;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 .slider .slick-arrow {

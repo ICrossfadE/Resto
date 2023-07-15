@@ -88,7 +88,7 @@
     margin-right: 24px;
   }
 
-  div.decription-main-block__info span::before {
+  div.decription-main-block__info button:nth-child(2)::before {
     content: url(../../assets/bx_map.svg);
     position: relative;
     top: 4px;
@@ -163,6 +163,7 @@
 
   .dropdown__link {
     font-size: 20px;
+    font-weight: 300;
     text-decoration: none;
     color: inherit;
   }
@@ -207,6 +208,10 @@
 /* =============================================== */
 
 @media (max-width: 478px) {
+  .header {
+    margin-bottom: 45px;
+  }
+
   nav.header__menu {
     width: 318px;
     margin: 0 auto;
@@ -228,14 +233,19 @@
   }
 
   div.decription-main-block__info {
-    text-align: start;
+    display: flex;
+    gap: 23px;
   }
 
-  div.decription-main-block__info mark {
+  div.decription-main-block__info b {
     font-size: 16px;
   }
 
-  div.decription-main-block__info span {
+  div.decription-main-block__info button:nth-child(1) {
+    font-size: 16px;
+  }
+
+  div.decription-main-block__info button:nth-child(2) {
     font-size: 16px;
   }
 
@@ -245,6 +255,14 @@
 
   div.dropdown-social__link {
     width: 246px;
+  }
+
+  div.option-content img {
+    width: 40px;
+  }
+
+  div.option-content div {
+    font-size: 16px;
   }
 
   div.slider .slick-arrow.slick-next::after {
@@ -296,9 +314,18 @@
     width: 76px;
   }
 
+  div.coffee-menu__colum {
+    align-items: start;
+    margin-top: 0;
+  }
+
   div.coffee-item__name {
     font-size: 18px;
     font-weight: 500;
+  }
+
+  div.coffee-menu__title {
+    font-size: 30px;
   }
 
   div.coffee-item__price {
@@ -307,6 +334,10 @@
 
   p.coffee-item__info {
     font-size: 16px;
+  }
+
+  div.coffee-menu__item {
+    padding: 32px 0;
   }
 
   div.coffee-menu__item:nth-child(2)::after {
@@ -340,6 +371,10 @@
 
   .response-slider .slick-dots li.slick-active button {
     border: 2px solid #fff;
+  }
+
+  div.response-block__slider {
+    margin-bottom: 46px;
   }
 
   div.response-item__text {
@@ -377,6 +412,7 @@
 
   section.page__main:nth-child(6) {
     margin-bottom: 0;
+    padding-top: 236px;
   }
 
   div.reservation__container {
@@ -400,11 +436,11 @@
 
   form.form-details input {
     margin-bottom: 28px;
-    padding: 4px 10px 3px 18px;
+    padding: 4px 10px 3px 10px;
   }
 
   div.details-data input {
-    width: 90px;
+    width: 132px;
     height: 27.5px;
   }
 
@@ -446,8 +482,8 @@
   }
 
   iframe.location__map {
-    width: 260px;
-    height: 260px;
+    width: 290px;
+    height: 290px;
   }
 }
 
