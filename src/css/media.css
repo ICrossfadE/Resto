@@ -31,6 +31,7 @@
   div.coffee-menu__list {
     flex-direction: column;
     margin-bottom: 0;
+    align-items: center;
   }
 
   div.response-item__text {

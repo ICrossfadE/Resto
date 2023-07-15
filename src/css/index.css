@@ -157,6 +157,8 @@ ul.menu__list {
   background: none;
   border: none;
   cursor: pointer;
+  color: #000;
+  text-decoration: none;
 }
 
 .decription-main-block__options {
